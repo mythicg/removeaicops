@@ -13,6 +13,6 @@ If you need help with this script feel free to join my discord for help! We are 
 
 # How To Install
 
-Just drop and drag the onduty-master folder into your resource folder into your resource folder in your server.
-After you complete that open your server.cfg and do the follow: onduty-master
+Just drop and drag the removeaicops-master folder into your resource folder into your resource folder in your server.
+After you complete that open your server.cfg and do the follow: removeaicops-master
 After this start your server up and it will work!
