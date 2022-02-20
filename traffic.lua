@@ -9,9 +9,9 @@ Citizen.CreateThread(function()
     while true do
     Citizen.Wait(0)
 
-    local playerPed = GetPlayerPed(-1)
-    local playerLocalisation = GetEntityCoords(playerPed)
-    ClearAreaOfCops(playerLocalisation.x, playerLocalisation.y, playerLocalisation.z, 100000.0)
+    local Player = GetPlayerPed()
+    local LocationOfPed = GetEntityCoords(Player)
+    ClearAreaOfCops(LocationOfPed.x, LocationOfPed.y, LocationOfPed.z, 100000.0)
     end
 
 end)
